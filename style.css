@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+article{
+    background-color: #8cc1f4;    
+    height: 512px;
+    padding: 20px;
+}
+
+.btn{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.btn button{
+    padding: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+.circulo{
+    background-color: aqua;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+}
+
+
+footer{
+    background-color: black;
+    color: white;   
+    padding: 20px;
+}
